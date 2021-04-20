@@ -21,13 +21,13 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id='home'>
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
       </HeroBg>
       <HeroContent>
         <HeroH1>Leah Family Care</HeroH1>
-        <HeroP>Assisted living with helping hands</HeroP>
+        <HeroP>Assisted living with a caring hand</HeroP>
         <HeroBtnWrapper>
           <Button
             to='signup'
