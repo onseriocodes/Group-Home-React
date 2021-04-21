@@ -2,18 +2,21 @@
 import svg3 from '../../images/svg-3.svg';
 import svg2 from '../../images/svg-2.svg';
 import svg1 from '../../images/svg-1.svg';
+import form from '../../images/form.svg';
+import doc from '../../images/doc.svg';
+
 export const homeObjOne = {
   id: 'about',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'ABOUT',
   headline: 'Accommodations for the disabled should be the norm',
   description:
     'A group home allows its residents a certain level of independence while also assisting with routine care',
   buttonLabel: 'Learn More',
   imgStart: false,
-  img: svg1,
+  img: doc,
   alt: 'Person image',
   dark: true,
   primary: true,
@@ -26,9 +29,9 @@ export const homeObjTwo = {
   lightText: false,
   lightTextDesc: true,
   topLine: 'DISCOVER',
-  headline: 'Accommodations for the disabled should be the norm',
+  headline: 'Residential Care Home',
   description:
-    'A group home allows its residents a certain level of independence while also assisting with routine care',
+    'A group home for disabled residents. On site staff to assist with meals, cleaning, daily activites i.e dressing and bathing',
   buttonLabel: 'Learn More',
   imgStart: true,
   img: svg2,
@@ -40,18 +43,18 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'signup',
-  lightBg: false,
-  lightText: true,
+  lightBg: true,
+  lightText: false,
   lightTextDesc: true,
   topLine: 'SIGN UP',
-  headline: 'Sign Up',
+  headline: 'Patient Registration',
   description:
     'A group home allows its residents a certain level of independence while also assisting with routine care',
-  buttonLabel: 'Learn More',
+  buttonLabel: 'Register',
   imgStart: false,
-  img: svg3,
+  img: form,
   alt: 'Person image',
   dark: true,
   primary: true,
-  darkText: false
+  darkText: true
 };

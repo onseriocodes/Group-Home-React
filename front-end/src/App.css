@@ -7,3 +7,17 @@
   /* font-family: 'Montserrat', sans-serif; */
   font-family: 'Poppins', sans-serif;
 }
+
+#login {
+  background: #fff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8cd2e7,
+    #fff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfd8e4,
+    #d0d4d6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
